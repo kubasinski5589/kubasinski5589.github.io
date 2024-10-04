@@ -2,3 +2,18 @@ body{background-color: blue;
     p{color:;}
     
 }
+
+div{
+
+margin:auto;
+    max-width; 1000px;
+}
+B{
+    font-size: 100px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    width: 1000px;
+}
