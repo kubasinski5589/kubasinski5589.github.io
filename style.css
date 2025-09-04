@@ -1,19 +1,50 @@
-body{background-color:" white;
-    p{color:;}
-    
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
-div{
+p {
+  font-size: 20px;
+  text-align: center;
+  word-wrap: break-word;
+  max-width: 100%;
+  margin: 0 auto;
+}
 
-margin:auto;
-    max-width; 1000px;
+b {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  line-height: 1.1;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
-B{
-    font-size: 100px;
+
+div {
+  margin: auto;
+  max-width: 1000px;
+  padding: 10px;
 }
-p{
-    font-size: 20px;
+
+img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
 }
-img{
-    width: 300px;
+
+@media (max-width: 600px) {
+  b {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  img {
+    max-width: 90%;
+  }
 }
