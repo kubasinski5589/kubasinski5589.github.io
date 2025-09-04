@@ -28,7 +28,7 @@ div {
 }
 
 img {
-  width: 300%;
+  width: 100%;
   max-width: 300px;
   display: block;
   margin: 0 auto;
@@ -48,4 +48,5 @@ img {
     max-width: 90%;
   }
 }
+
 
